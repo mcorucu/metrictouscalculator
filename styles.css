@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/random') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.conversion-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+}
+
+.conversion-input, .conversion-result {
+    margin-bottom: 20px;
+}
+
+.conversion-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.conversion-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conversion-button:hover {
+    background-color: #333;
+}
+
+#resultValue {
+    font-weight: bold;
+}

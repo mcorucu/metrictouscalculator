@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mcorucu converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>mcorucu converter</h1>
+    </header>
+    <main>
+        <div class="conversion-container">
+            <div class="conversion-input">
+                <label for="valueToConvert">Value to Convert:</label>
+                <input type="number" id="valueToConvert" placeholder="Enter value...">
+            </div>
+            <div class="conversion-options">
+                <button id="metricToUS" class="conversion-button">Metric to US</button>
+                <button id="usToMetric" class="conversion-button">US to Metric</button>
+            </div>
+            <div class="conversion-result">
+                <p id="resultText">Converted Value:</p>
+                <p id="resultValue"></p>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
